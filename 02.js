@@ -1,5 +1,5 @@
 (() => {
-function fiboEvenSum(n) {
+const fiboEvenSum = (n) => {
   let fibo = [1];
   let evenSum = 0;
   for (let idx = 1; idx < n; idx++) {
